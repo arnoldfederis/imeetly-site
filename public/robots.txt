@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://imeetly.app/sitemap.xml
