@@ -1,11 +1,11 @@
 {
-  "name": "@repo/site",
+  "name": "imeetly-site",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "dotenv -e ../../.env -- next dev --port 4002",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start --port 4002",
+    "start": "next start",
     "lint": "bunx biome lint",
     "format": "bunx biome check --write --unsafe",
     "format:file": "bunx biome format --write",
